@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      2680,         78]
-NotebookOptionsPosition[      2264,         62]
-NotebookOutlinePosition[      2602,         77]
-CellTagsIndexPosition[      2559,         74]
+NotebookDataLength[      5593,        149]
+NotebookOptionsPosition[      4943,        129]
+NotebookOutlinePosition[      5281,        144]
+CellTagsIndexPosition[      5238,        141]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -58,6 +58,73 @@ Cell[BoxData[
   3.771065340818509*^9, 3.771065697040072*^9, 3.771065738742502*^9, {
    3.771172105311882*^9, 3.771172135038142*^9}, 3.7712346528225307`*^9},
  CellLabel->"Out[33]=",ExpressionUUID->"943fcbd4-2872-480c-b481-852d9ca7804f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ TagBox[
+  DynamicModuleBox[{Audio`AudioObjects`audio$$ = HoldComplete[
+    Audio[
+    "/Users/rogeryu/Documents/WolframAudio/Capture-7fd51233-34ee-4e2e-bd55-\
+77e1e6e827e5.wav", "Real32", Appearance -> Automatic, AudioOutputDevice -> 
+     Automatic, SampleRate -> 44100, SoundVolume -> 1]], 
+   Audio`AudioObjects`audioID$$, Audio`AudioObjects`buttonState$$ = "Basic", 
+   Audio`AudioObjects`newAudio$$}, 
+   DynamicBox[ToBoxes[
+     Audio`AudioGUI[
+     2, Audio`AudioObjects`audioID$$, Audio`AudioObjects`buttonState$$, 
+      Audio`AudioObjects`audio$$], StandardForm],
+    ImageSizeCache->{136., {40., 46.}},
+    TrackedSymbols:>{}],
+   Deinitialization:>(Clear[Audio`AudioObjects`newAudio$$]; 
+    Audio`ClearRef[Audio`AudioObjects`audioID$$]),
+   DynamicModuleValues:>{},
+   Initialization:>({
+     Audio`AudioObjects`newAudio$$, Audio`AudioObjects`audioID$$} = 
+    Audio`CheckID[
+     Audio`AudioObjects`audio$$, Audio`AudioObjects`audioID$$, 
+      Audio`AudioObjects`newAudio$$]),
+   UnsavedVariables:>{
+    Audio`AudioObjects`audioID$$, Audio`AudioObjects`newAudio$$}],
+  Audio`AudioBox["AudioClass" -> "AudioFile"],
+  Editable->False,
+  Selectable->False]], "Input",
+ CellChangeTimes->{3.7717101780619497`*^9},
+ CellLabel->
+  "In[108]:=",ExpressionUUID->"c08bcc6c-b0db-46ad-8b56-cb5cbd2ae337"],
+
+Cell[BoxData[
+ TagBox[
+  DynamicModuleBox[{Audio`AudioObjects`audio$$ = HoldComplete[
+    Audio[
+    "/Users/rogeryu/Documents/WolframAudio/Capture-7fd51233-34ee-4e2e-bd55-\
+77e1e6e827e5.wav", "Real32", Appearance -> "Basic", AudioOutputDevice -> 
+     Automatic, SampleRate -> 44100, SoundVolume -> 1]], 
+   Audio`AudioObjects`audioID$$, Audio`AudioObjects`buttonState$$ = "Basic", 
+   Audio`AudioObjects`newAudio$$}, 
+   DynamicBox[ToBoxes[
+     Audio`AudioGUI[
+     2, Audio`AudioObjects`audioID$$, Audio`AudioObjects`buttonState$$, 
+      Audio`AudioObjects`audio$$], StandardForm],
+    ImageSizeCache->{136., {40., 46.}},
+    TrackedSymbols:>{}],
+   Deinitialization:>(Clear[Audio`AudioObjects`newAudio$$]; 
+    Audio`ClearRef[Audio`AudioObjects`audioID$$]),
+   DynamicModuleValues:>{},
+   Initialization:>({
+     Audio`AudioObjects`newAudio$$, Audio`AudioObjects`audioID$$} = 
+    Audio`CheckID[
+     Audio`AudioObjects`audio$$, Audio`AudioObjects`audioID$$, 
+      Audio`AudioObjects`newAudio$$]),
+   UnsavedVariables:>{
+    Audio`AudioObjects`audioID$$, Audio`AudioObjects`newAudio$$}],
+  Audio`AudioBox["AudioClass" -> "AudioFile"],
+  Editable->False,
+  Selectable->False]], "Output",
+ CellChangeTimes->{3.771710178290008*^9},
+ CellLabel->
+  "Out[108]=",ExpressionUUID->"5208fcac-2bb3-44ca-83af-f5acc507a6c7"]
 }, Open  ]]
 },
 WindowSize->{808, 701},
@@ -79,10 +146,12 @@ Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 228, 4, 30, "Input",ExpressionUUID->"b58a7b37-1b35-491c-aedb-0587ea279216"],
 Cell[811, 28, 1437, 31, 105, "Output",ExpressionUUID->"943fcbd4-2872-480c-b481-852d9ca7804f"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2285, 64, 1321, 30, 101, InheritFromParent,ExpressionUUID->"c08bcc6c-b0db-46ad-8b56-cb5cbd2ae337"],
+Cell[3609, 96, 1318, 30, 105, "Output",ExpressionUUID->"5208fcac-2bb3-44ca-83af-f5acc507a6c7"]
 }, Open  ]]
 }
 ]
 *)
-
-(* End of internal cache information *)
 
