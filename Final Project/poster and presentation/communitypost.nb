@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      7269,        154]
-NotebookOptionsPosition[      5452,        110]
-NotebookOutlinePosition[      6876,        148]
-CellTagsIndexPosition[      6833,        145]
+NotebookDataLength[      7421,        156]
+NotebookOptionsPosition[      5604,        112]
+NotebookOutlinePosition[      7028,        150]
+CellTagsIndexPosition[      6985,        147]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -69,9 +69,11 @@ approach to teaching and learning in higher education.\
 ba4950a67353"],
 
 Cell[TextData[{
- "As we all know, we are integrating ",
- StyleBox["Mathematica ",
+ "Specifically, we are integrating ",
+ StyleBox["Wolfram Language ",
   FontWeight->"Bold",
+  FontColor->GrayLevel[0]],
+ StyleBox["Apps such as Wolfram Cloud, Wolfram Player, and Wolfram Alph ",
   FontColor->GrayLevel[0]],
  "with the application of smart phones to further enhance the engagement and \
 interest of students. A few samples have been provided here to allow students \
@@ -102,8 +104,8 @@ and humanities.  \n"
   3.7716858612437363`*^9}, {3.771685894722814*^9, 3.771686124940445*^9}, {
   3.771686157220397*^9, 3.7716863823652067`*^9}, {3.7717083002202673`*^9, 
   3.7717083165073633`*^9}, {3.7717083521969624`*^9, 3.771708401518538*^9}, {
-  3.771709597632946*^9, 
-  3.771709608993137*^9}},ExpressionUUID->"87dd5192-3d59-4d99-9bfd-\
+  3.771709597632946*^9, 3.771709608993137*^9}, {3.771714652318314*^9, 
+  3.771714815585587*^9}},ExpressionUUID->"87dd5192-3d59-4d99-9bfd-\
 f4648688373f"]
 }, Open  ]]
 }, Open  ]]
@@ -153,7 +155,7 @@ Cell[1192, 34, 398, 6, 31, "Author",ExpressionUUID->"94536f76-3fd2-4bf6-b228-fa9
 Cell[CellGroupData[{
 Cell[1615, 44, 306, 4, 67, "Section",ExpressionUUID->"34590746-9192-45b3-8bfc-a59bee63e84c"],
 Cell[1924, 50, 1169, 18, 150, "Text",ExpressionUUID->"a462578f-3e2f-4e4f-9983-ba4950a67353"],
-Cell[3096, 70, 2328, 36, 518, "Text",ExpressionUUID->"87dd5192-3d59-4d99-9bfd-f4648688373f"]
+Cell[3096, 70, 2480, 38, 518, "Text",ExpressionUUID->"87dd5192-3d59-4d99-9bfd-f4648688373f"]
 }, Open  ]]
 }, Open  ]]
 }

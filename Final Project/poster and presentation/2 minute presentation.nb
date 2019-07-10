@@ -10,24 +10,24 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      6810,        147]
-NotebookOptionsPosition[      4995,        103]
-NotebookOutlinePosition[      6419,        141]
-CellTagsIndexPosition[      6376,        138]
+NotebookDataLength[     13573,        266]
+NotebookOptionsPosition[     11007,        212]
+NotebookOutlinePosition[     12496,        251]
+CellTagsIndexPosition[     12453,        248]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 
 Cell[CellGroupData[{
-Cell["Teaching and learning with smart phone and Mathematica", "Title",
+Cell["Teaching and learning with smart phone and Wolfram Language", "Title",
  CellChangeTimes->{{3.770055572438499*^9, 3.7700555729498453`*^9}, {
   3.770055604008165*^9, 3.7700556066618843`*^9}, {3.771018508241251*^9, 
   3.77101851283445*^9}, {3.7710185806540527`*^9, 3.7710186873833513`*^9}, {
   3.771018771371171*^9, 3.7710188035285397`*^9}, {3.771018969063036*^9, 
   3.771018970574173*^9}, {3.7710977509335957`*^9, 3.7710977734914722`*^9}, {
-  3.771099042971685*^9, 
-  3.771099054043067*^9}},ExpressionUUID->"49ab34ee-bfd5-49f5-beef-\
+  3.771099042971685*^9, 3.771099054043067*^9}, {3.77171274819928*^9, 
+  3.771712752767397*^9}},ExpressionUUID->"49ab34ee-bfd5-49f5-beef-\
 400d3cc456dd"],
 
 Cell["Roger Yu", "Author",
@@ -63,30 +63,49 @@ with Mathematica is the focus of this project. \
 ba4950a67353"],
 
 Cell[TextData[{
- "Specifically, we are integrating ",
- StyleBox["Mathematica ",
+ "Specifically, we are integrating Wolfram Language",
+ StyleBox[" ",
   FontWeight->"Bold",
   FontColor->GrayLevel[0]],
  "with the application of smart phones to further enhance the engagement and \
 interest of students. A few samples have been provided here to allow students \
-to compare book knowledge with real life experiences. \n\nWe have chosen \
-various applications of Mathematica in audio signal analysis as the backbone \
-of the study. To start, students are required to record their own voice \
-individually on their phone and then analysis the recording for the following \
-aspects:\n\nvisualization of the voice via AudioPlot\ncompare the plot of \
-voice with the \[OpenCurlyDoubleQuote]Formants\[CloseCurlyDoubleQuote] in the \
-data base\nvisualize the Spectrogram of the signal\n\nThe second example we \
-have included in the study is to fully utilize the available built-in audio \
-data base so to allow students to pick and choose whatever audio signal they \
-are interested to study. \n\nAs an extension of the first example, the \
-project requires students to record sound signals from an airtube such as the \
-Wolfram water bottle that we all received for this summer school, download \
-the recording to a computer,  plot the spectrogram, and compare the peaks \
-with the theoretical results. \n\nWe believe, through this project that the \
-coupling of smart phones with Mathematica is an effective approach of \
-engaging large population of students whose majors ranging from STEM to arts, \
-and humanities.  \n"
+to compare book knowledge with real life experiences. "
 }], "Text",
+ CellChangeTimes->{{3.7716064522520103`*^9, 3.771606468197604*^9}, {
+   3.771606503011981*^9, 3.771606745442615*^9}, {3.771606847323572*^9, 
+   3.7716068713976088`*^9}, {3.771607031450171*^9, 3.7716072701206627`*^9}, {
+   3.771684928287446*^9, 3.7716850199488287`*^9}, {3.771685056980565*^9, 
+   3.771685371833956*^9}, {3.771685402112699*^9, 3.77168548261474*^9}, {
+   3.771685516653192*^9, 3.7716856535136223`*^9}, {3.771685756648122*^9, 
+   3.7716858612437363`*^9}, {3.771685894722814*^9, 3.771686124940445*^9}, {
+   3.771686157220397*^9, 3.7716863823652067`*^9}, {3.7717083002202673`*^9, 
+   3.7717083165073633`*^9}, {3.7717083521969624`*^9, 3.771708401518538*^9}, {
+   3.771712663525888*^9, 3.771712664549581*^9}, 
+   3.7717127586902533`*^9},ExpressionUUID->"87dd5192-3d59-4d99-9bfd-\
+f4648688373f"],
+
+Cell["\<\
+We have chosen various applications of Wolfram Language in audio signal \
+analysis as the backbone of the study. To start, students are required to \
+record their own voice individually on their phone and then analysis the \
+recording for the following aspects:\
+\>", "Text",
+ CellChangeTimes->{{3.7716064522520103`*^9, 3.771606468197604*^9}, {
+   3.771606503011981*^9, 3.771606745442615*^9}, {3.771606847323572*^9, 
+   3.7716068713976088`*^9}, {3.771607031450171*^9, 3.7716072701206627`*^9}, {
+   3.771684928287446*^9, 3.7716850199488287`*^9}, {3.771685056980565*^9, 
+   3.771685371833956*^9}, {3.771685402112699*^9, 3.77168548261474*^9}, {
+   3.771685516653192*^9, 3.7716856535136223`*^9}, {3.771685756648122*^9, 
+   3.7716858612437363`*^9}, {3.771685894722814*^9, 3.771686124940445*^9}, {
+   3.771686157220397*^9, 3.7716863823652067`*^9}, {3.7717083002202673`*^9, 
+   3.7717083165073633`*^9}, {3.7717083521969624`*^9, 3.771708401518538*^9}, {
+   3.771712663525888*^9, 3.771712666485914*^9}, 
+   3.771712776881132*^9},ExpressionUUID->"fa768d5e-680d-4283-8742-\
+c375c99153a1"],
+
+Cell[CellGroupData[{
+
+Cell["visualization of the voice via AudioPlot", "Item",
  CellChangeTimes->{{3.7716064522520103`*^9, 3.771606468197604*^9}, {
   3.771606503011981*^9, 3.771606745442615*^9}, {3.771606847323572*^9, 
   3.7716068713976088`*^9}, {3.771607031450171*^9, 3.7716072701206627`*^9}, {
@@ -95,14 +114,104 @@ and humanities.  \n"
   3.771685516653192*^9, 3.7716856535136223`*^9}, {3.771685756648122*^9, 
   3.7716858612437363`*^9}, {3.771685894722814*^9, 3.771686124940445*^9}, {
   3.771686157220397*^9, 3.7716863823652067`*^9}, {3.7717083002202673`*^9, 
-  3.7717083165073633`*^9}, {3.7717083521969624`*^9, 
-  3.771708401518538*^9}},ExpressionUUID->"87dd5192-3d59-4d99-9bfd-\
-f4648688373f"]
+  3.7717083165073633`*^9}, {3.7717083521969624`*^9, 3.771708401518538*^9}, {
+  3.771712663525888*^9, 
+  3.7717126846374397`*^9}},ExpressionUUID->"0bcab6ae-4057-442e-b264-\
+aed4eebf9127"],
+
+Cell["\<\
+compare the plot of voice with the \"Formants\" in the data base\
+\>", "Item",
+ CellChangeTimes->{{3.7716064522520103`*^9, 3.771606468197604*^9}, {
+  3.771606503011981*^9, 3.771606745442615*^9}, {3.771606847323572*^9, 
+  3.7716068713976088`*^9}, {3.771607031450171*^9, 3.7716072701206627`*^9}, {
+  3.771684928287446*^9, 3.7716850199488287`*^9}, {3.771685056980565*^9, 
+  3.771685371833956*^9}, {3.771685402112699*^9, 3.77168548261474*^9}, {
+  3.771685516653192*^9, 3.7716856535136223`*^9}, {3.771685756648122*^9, 
+  3.7716858612437363`*^9}, {3.771685894722814*^9, 3.771686124940445*^9}, {
+  3.771686157220397*^9, 3.7716863823652067`*^9}, {3.7717083002202673`*^9, 
+  3.7717083165073633`*^9}, {3.7717083521969624`*^9, 3.771708401518538*^9}, {
+  3.771712663525888*^9, 
+  3.7717126874458647`*^9}},ExpressionUUID->"f052bae6-dd69-430d-8cde-\
+d4128abc8929"],
+
+Cell["visualize the Spectrogram of the signal", "Item",
+ CellChangeTimes->{{3.7716064522520103`*^9, 3.771606468197604*^9}, {
+  3.771606503011981*^9, 3.771606745442615*^9}, {3.771606847323572*^9, 
+  3.7716068713976088`*^9}, {3.771607031450171*^9, 3.7716072701206627`*^9}, {
+  3.771684928287446*^9, 3.7716850199488287`*^9}, {3.771685056980565*^9, 
+  3.771685371833956*^9}, {3.771685402112699*^9, 3.77168548261474*^9}, {
+  3.771685516653192*^9, 3.7716856535136223`*^9}, {3.771685756648122*^9, 
+  3.7716858612437363`*^9}, {3.771685894722814*^9, 3.771686124940445*^9}, {
+  3.771686157220397*^9, 3.7716863823652067`*^9}, {3.7717083002202673`*^9, 
+  3.7717083165073633`*^9}, {3.7717083521969624`*^9, 3.771708401518538*^9}, {
+  3.771712663525888*^9, 
+  3.771712686929549*^9}},ExpressionUUID->"81c0d3cc-80b9-4d7f-8233-\
+37044f7a209b"]
+}, Open  ]],
+
+Cell["\<\
+The second example we have included in the study is to fully utilize the \
+available built-in audio data base so to allow students to pick and choose \
+whatever audio signal they are interested to study. \
+\>", "Text",
+ CellChangeTimes->{{3.7716064522520103`*^9, 3.771606468197604*^9}, {
+  3.771606503011981*^9, 3.771606745442615*^9}, {3.771606847323572*^9, 
+  3.7716068713976088`*^9}, {3.771607031450171*^9, 3.7716072701206627`*^9}, {
+  3.771684928287446*^9, 3.7716850199488287`*^9}, {3.771685056980565*^9, 
+  3.771685371833956*^9}, {3.771685402112699*^9, 3.77168548261474*^9}, {
+  3.771685516653192*^9, 3.7716856535136223`*^9}, {3.771685756648122*^9, 
+  3.7716858612437363`*^9}, {3.771685894722814*^9, 3.771686124940445*^9}, {
+  3.771686157220397*^9, 3.7716863823652067`*^9}, {3.7717083002202673`*^9, 
+  3.7717083165073633`*^9}, {3.7717083521969624`*^9, 3.771708401518538*^9}, {
+  3.771712663525888*^9, 3.771712668907669*^9}, {3.771712698922244*^9, 
+  3.7717126992602577`*^9}},ExpressionUUID->"bcad34ba-58c4-44ed-84d7-\
+4646c51c05a3"],
+
+Cell["\<\
+As an extension of the first example, the project requires students to record \
+sound signals from an airtube such as the Wolfram water bottle that we all \
+received for this summer school, download the recording to a computer,  plot \
+the spectrogram, and compare the peaks with the theoretical results. \
+\>", "Text",
+ CellChangeTimes->{{3.7716064522520103`*^9, 3.771606468197604*^9}, {
+  3.771606503011981*^9, 3.771606745442615*^9}, {3.771606847323572*^9, 
+  3.7716068713976088`*^9}, {3.771607031450171*^9, 3.7716072701206627`*^9}, {
+  3.771684928287446*^9, 3.7716850199488287`*^9}, {3.771685056980565*^9, 
+  3.771685371833956*^9}, {3.771685402112699*^9, 3.77168548261474*^9}, {
+  3.771685516653192*^9, 3.7716856535136223`*^9}, {3.771685756648122*^9, 
+  3.7716858612437363`*^9}, {3.771685894722814*^9, 3.771686124940445*^9}, {
+  3.771686157220397*^9, 3.7716863823652067`*^9}, {3.7717083002202673`*^9, 
+  3.7717083165073633`*^9}, {3.7717083521969624`*^9, 3.771708401518538*^9}, {
+  3.771712663525888*^9, 3.771712668907669*^9}, {3.771712698922244*^9, 
+  3.771712706796122*^9}},ExpressionUUID->"a1e46342-b0a1-4850-babf-\
+7517fe883d95"],
+
+Cell["\<\
+We believe these examples have demonstrated that the coupling between smart \
+phones and Wolfram Language has become an effective approach of engaging \
+large population of students whose interest of studies cover a wide range of  \
+disciplines ranging from STEM to arts, and humanities. \
+\>", "Text",
+ CellChangeTimes->{{3.7716064522520103`*^9, 3.771606468197604*^9}, {
+  3.771606503011981*^9, 3.771606745442615*^9}, {3.771606847323572*^9, 
+  3.7716068713976088`*^9}, {3.771607031450171*^9, 3.7716072701206627`*^9}, {
+  3.771684928287446*^9, 3.7716850199488287`*^9}, {3.771685056980565*^9, 
+  3.771685371833956*^9}, {3.771685402112699*^9, 3.77168548261474*^9}, {
+  3.771685516653192*^9, 3.7716856535136223`*^9}, {3.771685756648122*^9, 
+  3.7716858612437363`*^9}, {3.771685894722814*^9, 3.771686124940445*^9}, {
+  3.771686157220397*^9, 3.7716863823652067`*^9}, {3.7717083002202673`*^9, 
+  3.7717083165073633`*^9}, {3.7717083521969624`*^9, 3.771708401518538*^9}, {
+  3.771712663525888*^9, 3.771712668907669*^9}, {3.771712698922244*^9, 
+  3.771712709609284*^9}, {3.771713934603245*^9, 3.771713993248082*^9}, {
+  3.7717140237030983`*^9, 
+  3.771714208617235*^9}},ExpressionUUID->"85e6ceaa-2a84-44db-bc13-\
+0f00de74785a"]
 }, Open  ]]
 }, Open  ]]
 },
 WindowSize->{860, 801},
-WindowMargins->{{88, Automatic}, {Automatic, 56}},
+WindowMargins->{{2, Automatic}, {Automatic, 123}},
 DockedCells->{
   Cell[
    TextData[{
@@ -115,6 +224,7 @@ DockedCells->{
       RGBColor[0.97, 0.83, 0.35], FontFamily -> "Source Sans Pro", FontSize -> 
       40]}], CellFrameMargins -> 10, Background -> 
    RGBColor[0.12, 0.14, 0.15]]},
+SpellingDictionaries->{"CorrectWords"->{"Formants", "airtube"}},
 FrontEndVersion->"12.0 for Mac OS X x86 (64-bit) (April 8, 2019)",
 StyleDefinitions->Notebook[{
    Cell[
@@ -141,12 +251,21 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 547, 8, 160, "Title",ExpressionUUID->"49ab34ee-bfd5-49f5-beef-400d3cc456dd"],
-Cell[1130, 32, 398, 6, 31, "Author",ExpressionUUID->"94536f76-3fd2-4bf6-b228-fa93ec9acae9"],
+Cell[580, 22, 597, 8, 160, "Title",ExpressionUUID->"49ab34ee-bfd5-49f5-beef-400d3cc456dd"],
+Cell[1180, 32, 398, 6, 31, "Author",ExpressionUUID->"94536f76-3fd2-4bf6-b228-fa93ec9acae9"],
 Cell[CellGroupData[{
-Cell[1553, 42, 246, 4, 67, "Section",ExpressionUUID->"34590746-9192-45b3-8bfc-a59bee63e84c"],
-Cell[1802, 48, 885, 14, 127, "Text",ExpressionUUID->"a462578f-3e2f-4e4f-9983-ba4950a67353"],
-Cell[2690, 64, 2277, 35, 518, "Text",ExpressionUUID->"87dd5192-3d59-4d99-9bfd-f4648688373f"]
+Cell[1603, 42, 246, 4, 67, "Section",ExpressionUUID->"34590746-9192-45b3-8bfc-a59bee63e84c"],
+Cell[1852, 48, 885, 14, 127, "Text",ExpressionUUID->"a462578f-3e2f-4e4f-9983-ba4950a67353"],
+Cell[2740, 64, 1165, 20, 81, "Text",ExpressionUUID->"87dd5192-3d59-4d99-9bfd-f4648688373f"],
+Cell[3908, 86, 1087, 17, 81, "Text",ExpressionUUID->"fa768d5e-680d-4283-8742-c375c99153a1"],
+Cell[CellGroupData[{
+Cell[5020, 107, 828, 12, 32, "Item",ExpressionUUID->"0bcab6ae-4057-442e-b264-aed4eebf9127"],
+Cell[5851, 121, 860, 14, 32, "Item",ExpressionUUID->"f052bae6-dd69-430d-8cde-d4128abc8929"],
+Cell[6714, 137, 825, 12, 32, "Item",ExpressionUUID->"81c0d3cc-80b9-4d7f-8233-37044f7a209b"]
+}, Open  ]],
+Cell[7554, 152, 1046, 16, 58, "Text",ExpressionUUID->"bcad34ba-58c4-44ed-84d7-4646c51c05a3"],
+Cell[8603, 170, 1145, 17, 81, "Text",ExpressionUUID->"a1e46342-b0a1-4850-babf-7517fe883d95"],
+Cell[9751, 189, 1228, 19, 81, "Text",ExpressionUUID->"85e6ceaa-2a84-44db-bc13-0f00de74785a"]
 }, Open  ]]
 }, Open  ]]
 }
